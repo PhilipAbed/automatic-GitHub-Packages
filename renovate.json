@@ -3,5 +3,16 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin"]
     }
-  ]
+  ],
+  ,
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcBMA90FtVIhcznKAQf/UVFm6RJkOoi6LQGjuOVwbQkItCeKTZknWfhVOJm0cf2mPNN/ZnZCFDXBLOeZw6nTUoIzWgPxKJoT8bOTB/6ce5Z+97LyyEUIU0hz+TQLrO1tOrD4V1xWY+YDX5bFGswkQib7KvW0Jj7BgT3GEcr33HUNzUuzco5B32rOyj2fP5FxaATZmtx7T2REPkqS+F/iuoiM4eIt7tsWy/drn3IXaX5mDVJHTAi/kd0NBLrIDSJmQJJ+p5h4XFYzWOyta/jP0v9vu5jF6CgK7jwhCYDzGJUg2BDnR8zA6tSy9jJOpUYTYkMKO+eTYYE2LisKwFReJiFCGZUhVwFS7pu8lVCHQtJ5AauTurkjxOtdjzPPNIsllK+cfyXT5fWP4NmWTGD9MDs9fRBgBUNT7CDFv3ffaYjy0SDjxqbicIVDLHnftaJWt6gntnk8qRTu4BhFFaJA9cXBG/vb2wAcgMCGE2Sb8DTUVo17Kg5RKS78cg3GfLmvewRtVQoGRD5FYA"
+      }
+    }
+  ],
+  "npmrc": "@philipabed:registry=https://npm.pkg.github.com/"
 }
