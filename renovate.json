@@ -8,7 +8,9 @@
     {
       "matchHost": "https://npm.pkg.github.com/",
       "hostType": "npm",
-      "token": "wV4DTuL9N/0FSn0SAQdAzeNhvIl/3k1hSCmrKA07oqPC6QV6n3QK8naZcqMyencwV2itP6kMymwO3EY8ZBrCCSDSzJ7NWMDLqfX6YgKiVQDB4SxzTViQugJ0AZO+m/0K0nkBRDUKcTZLd7R2MSfyCa7OohNlj9NYh6/VEadOaX8XOXwdwwPxrfxlRIQheKXaoL8I+vbVA3kBnEhLAIlMmUBVvB7doi9MZBDCqVNaCBx6lTgtm4tfg7P4AiEO3kPcGA0CnjKOGaTrMKdQYfd2y3HUBHzEdxifM18y"
+      "encrypted": {
+        "token": "TBD"
+      }
     }
   ],
   "npmrc": "@philipabed:registry=https://npm.pkg.github.com/"
